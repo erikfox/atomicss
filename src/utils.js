@@ -3,7 +3,7 @@ import camelCase from 'camel-case';
 export const globalPropValues = ['inherit', 'initial', 'unset'];
 
 export const getEnumeratedValues = (ruleName, possibleValues = []) =>
-  possibleValues.concat(globalPropValues).reduce(
+  globalPropValues.concat(possibleValues).reduce(
     (rules, value) => ({
       ...rules,
       [camelCase(value)]: { [ruleName]: value },
@@ -19,11 +19,11 @@ export const emScaleFactors = [
   ['largest', 4],
 ];
 
-export const getScaledEmValues = ruleName =>
+export const getScaledEmValues = (ruleName, possibleValues) =>
   emScaleFactors.reduce(
     (rules, [scale, factor]) => ({
       ...rules,
       [camelCase(scale)]: { [ruleName]: `${factor}em` },
     }),
-    getEnumeratedValues(ruleName)
+    getEnumeratedValues(ruleName, possibleValues)
   );
