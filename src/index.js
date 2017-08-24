@@ -1,12 +1,5 @@
-export function helloWorld() {
-  return 'Hello world!';
-}
-
-export function goodbyeMoon() {
-  return 'Goodbye moon!';
-}
+import display from './display';
 
 export default {
-  helloWorld,
-  goodbyeMoon,
+  display,
 };
