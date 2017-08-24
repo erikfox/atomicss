@@ -25,5 +25,5 @@ export const getScaledEmValues = ruleName =>
       ...rules,
       [camelCase(scale)]: { [ruleName]: `${factor}em` },
     }),
-    {}
+    getEnumeratedValues(ruleName)
   );

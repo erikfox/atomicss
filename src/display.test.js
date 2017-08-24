@@ -4,6 +4,7 @@
   Tests are used to discover what export object should be.
 */
 
+import deepEqual from 'deep-equal';
 import display from './display';
 import { getEnumeratedValues } from './utils';
 
@@ -74,6 +75,7 @@ const exportObject = {
 
 describe('display', () => {
   test('matches export', () => {
-    expect(exportObject).toMatchObject(display);
+    const deepMatch = deepEqual(display, exportObject);
+    expect(deepMatch).toBeTruthy();
   });
 });

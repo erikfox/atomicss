@@ -4,8 +4,9 @@
   Tests are used to discover what export object should be.
 */
 
+import deepEqual from 'deep-equal';
 import padding from './padding';
-import { getScaledEmValues, getEnumeratedValues } from './utils';
+import { getScaledEmValues } from './utils';
 
 const allSidesValues = getScaledEmValues('padding');
 
@@ -19,11 +20,11 @@ const singleSideValues = {
 const exportObject = {
   ...allSidesValues,
   ...singleSideValues,
-  ...getEnumeratedValues('padding'),
 };
 
 describe('padding', () => {
   test('matches export', () => {
-    expect(exportObject).toMatchObject(padding);
+    const deepMatch = deepEqual(padding, exportObject);
+    expect(deepMatch).toBeTruthy();
   });
 });
