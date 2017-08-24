@@ -2,7 +2,10 @@
   https://developer.mozilla.org/en-US/docs/Web/CSS/display
 */
 
-export default {
+module.exports.display = {
+  inherit: { display: 'inherit' },
+  initial: { display: 'initial' },
+  unset: { display: 'unset' },
   block: { display: 'block' },
   inline: { display: 'inline' },
   runIn: { display: 'run-in' },
@@ -71,7 +74,4 @@ export default {
   contents: { display: 'contents' },
   none: { display: 'none' },
   inlineBlock: { display: 'inline-block' },
-  inherit: { display: 'inherit' },
-  initial: { display: 'initial' },
-  unset: { display: 'unset' },
 };

@@ -27,10 +27,6 @@ import atoms from 'atomicss';
 /* OR */
 
 import { margin } from 'atomicss';
-
-/* OR */
-
-import margin from 'atomicss/margin';
 ```
 
 ## Usage

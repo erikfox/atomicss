@@ -2,7 +2,7 @@
   https://developer.mozilla.org/en-US/docs/Web/CSS/margin
 */
 
-export default {
+module.exports.margin = {
   auto: { margin: 'auto' },
   inherit: { margin: 'inherit' },
   initial: { margin: 'initial' },

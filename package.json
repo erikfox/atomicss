@@ -13,10 +13,10 @@
     "url": "https://github.com/erikfox/atomicss/issues"
   },
   "keywords": [],
-  "main": "./lib/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "dev": "npm run build -- --watch & npm test -- --watchAll & wait",
-    "build": "babel src --out-dir lib --ignore test.js",
+    "build": "babel src --out-file lib/index.js --ignore utils.js,test.js",
     "test": "jest --coverage",
     "test-ci": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "lint": "eslint src",

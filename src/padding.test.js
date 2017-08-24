@@ -5,7 +5,7 @@
 */
 
 import deepEqual from 'deep-equal';
-import padding from './padding';
+import { padding } from './padding';
 import { getScaledEmValues } from './utils';
 
 const allSidesValues = getScaledEmValues('padding');
