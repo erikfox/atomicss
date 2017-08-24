@@ -1,14 +1,36 @@
-___
-**WARNING!!** This library is still in development and much of the basic API is still being built out.
-___
+![Warning!](https://img.shields.io/badge/⚠️-WARNING-orange.svg) <sup>This library is still in development and much of the basic API is still being built out.</sup>
 
 # Atomicss  <sup><sub><sub>&nbsp;&nbsp;/ *uh*-**tom**'-iks /</sub></sub></sup>
 
+[<img src="https://img.shields.io/twitter/follow/erkfox.svg?style=social&label=Say%20hello!" align="right" alt="Twitter @erkfox" />](https://twitter.com/erkfox)
+
+[![license](https://img.shields.io/github/license/erikfox/atomicss.svg)](https://opensource.org/licenses/Apache-2.0)
+[![npm](https://img.shields.io/npm/v/atomicss.svg)](https://www.npmjs.com/package/atomicss)
+[![npm](https://img.shields.io/npm/dt/atomicss.svg?colorB=32CD32)](https://www.npmjs.com/package/atomicss)
+[![CircleCI](https://img.shields.io/circleci/project/github/erikfox/atomicss.svg?colorB=32CD32)](https://circleci.com/gh/erikfox/atomicss/tree/master)
+[![Coveralls](https://img.shields.io/coveralls/erikfox/atomicss.svg?colorB=32CD32)](https://coveralls.io/github/erikfox/atomicss)
+
+![Pull Requests Welcome](https://img.shields.io/badge/pull_requests-welcome-FF69B4.svg)
+[![](https://img.shields.io/github/issues-raw/erikfox/atomicss.svg?colorB=FF69B4)](https://github.com/erikfox/atomicss/issues)
+
 A composable library of atomic, functional CSS-in-JS styles.
 
-## Installation
+### Install
 ```bash
-$ npm i --save atomicss
+$ npm install --save atomicss
+```
+
+### Include
+```js
+import atoms from 'atomicss';
+
+/* OR */
+
+import { margin } from 'atomicss';
+
+/* OR */
+
+import margin from 'atomicss/margin';
 ```
 
 ## Usage
