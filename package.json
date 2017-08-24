@@ -1,16 +1,16 @@
 {
   "name": "atomicss",
-  "version": "0.0.1",
-  "author": "Erik Fox <erikfox@spotify.net>",
-  "description": "A library for atomic, functional styling.",
+  "version": "0.0.2",
+  "author": "Erik Fox <erik@erikfox.co>",
+  "description": "A composable library of atomic, functional CSS-in-JS styles.",
   "license": "Apache-2.0",
-  "homepage": "https://ghe.spotify.net/node/atomicss",
+  "homepage": "https://github.com/erikfox/atomicss",
   "repository": {
     "type": "git",
-    "url": "https://ghe.spotify.net/node/atomicss.git"
+    "url": "https://github.com/erikfox/atomicss.git"
   },
   "bugs": {
-    "url": "https://ghe.spotify.net/node/atomicss/issues"
+    "url": "https://github.com/erikfox/atomicss/issues"
   },
   "keywords": [],
   "main": "./lib/index.js",
