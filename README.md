@@ -1,4 +1,4 @@
-# Atomicss <span style="font-weight: normal; font-size: small; vertical-align: 10%;"> / *uh*-**tom**'-iks /</span>
+# Atomicss  <sup><sub><sub>&nbsp;&nbsp;/ *uh*-**tom**'-iks /</sub></sub></sup>
 
 A composable library of atomic, functional CSS-in-JS styles.
 
@@ -19,7 +19,7 @@ const shyDiv = ({ hidden }) => (
       hidden ? display.block : display.none,
     )}
   >
-    I'm shy!
+    I am shy!
   </div>
 );
 ```
