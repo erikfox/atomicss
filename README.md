@@ -1,3 +1,7 @@
+___
+**WARNING!!** This library is still in development and much of the basic API is still being built out.
+___
+
 # Atomicss  <sup><sub><sub>&nbsp;&nbsp;/ *uh*-**tom**'-iks /</sub></sub></sup>
 
 A composable library of atomic, functional CSS-in-JS styles.
