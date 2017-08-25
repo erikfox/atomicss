@@ -1,6 +1,6 @@
 {
   "name": "atomicss",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Erik Fox <erik@erikfox.co>",
   "description": "A composable library of atomic, functional CSS-in-JS styles.",
   "license": "Apache-2.0",

@@ -2,15 +2,12 @@
 
 [<img src="https://img.shields.io/twitter/follow/erkfox.svg?style=social&label=Say%20hello!" align="right" alt="Twitter @erkfox" />](https://twitter.com/erkfox)
 
-![WARNING! EARLY DEVELOPMENT!](https://img.shields.io/badge/⚠️-EARLY_DEVELOPMENT-F5B814.svg)
 [![license](https://img.shields.io/github/license/erikfox/atomicss.svg)](https://opensource.org/licenses/Apache-2.0)
 [![npm](https://img.shields.io/npm/v/atomicss.svg)](https://www.npmjs.com/package/atomicss)
-[![npm](https://img.shields.io/npm/dt/atomicss.svg?colorB=32CD32)](https://www.npmjs.com/package/atomicss)
 [![CircleCI](https://img.shields.io/circleci/project/github/erikfox/atomicss.svg?colorB=32CD32)](https://circleci.com/gh/erikfox/atomicss/tree/master)
 [![Coveralls](https://img.shields.io/coveralls/erikfox/atomicss.svg?colorB=32CD32)](https://coveralls.io/github/erikfox/atomicss)
 
-![Pull Requests Welcome](https://img.shields.io/badge/pull_requests-welcome-FF69B4.svg)
-[![](https://img.shields.io/github/issues-raw/erikfox/atomicss.svg?colorB=FF69B4)](https://github.com/erikfox/atomicss/issues)
+![WARNING! EARLY DEVELOPMENT!](https://img.shields.io/badge/⚠️-EARLY_DEVELOPMENT-F5B814.svg)
 
 A composable library of atomic, functional CSS-in-JS styles.
 
