@@ -1,9 +1,8 @@
-![Warning!](https://img.shields.io/badge/⚠️-WARNING-orange.svg) <sup>This library is still in development and much of the basic API is still being built out.</sup>
-
 # Atomicss  <sup><sub><sub>&nbsp;&nbsp;/ *uh*-**tom**'-iks /</sub></sub></sup>
 
 [<img src="https://img.shields.io/twitter/follow/erkfox.svg?style=social&label=Say%20hello!" align="right" alt="Twitter @erkfox" />](https://twitter.com/erkfox)
 
+![WARNING! EARLY DEVELOPMENT!](https://img.shields.io/badge/⚠️-EARLY_DEVELOPMENT-F5B814.svg)
 [![license](https://img.shields.io/github/license/erikfox/atomicss.svg)](https://opensource.org/licenses/Apache-2.0)
 [![npm](https://img.shields.io/npm/v/atomicss.svg)](https://www.npmjs.com/package/atomicss)
 [![npm](https://img.shields.io/npm/dt/atomicss.svg?colorB=32CD32)](https://www.npmjs.com/package/atomicss)

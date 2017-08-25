@@ -4,7 +4,8 @@
       "targets": {
         "node": "current"
       }
-    }]
+    }],
+    "minify"
   ],
   "plugins": ["transform-object-rest-spread"]
 }
