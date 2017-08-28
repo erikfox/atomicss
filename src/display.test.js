@@ -5,7 +5,7 @@
 */
 
 import deepEqual from 'deep-equal';
-import { display } from './display';
+import display from './display';
 import { getEnumeratedValues } from './utils';
 
 const displayOutsideValues = ['block', 'inline', 'run-in'];

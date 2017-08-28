@@ -2,7 +2,7 @@
   https://developer.mozilla.org/en-US/docs/Web/CSS/display
 */
 
-module.exports.display = {
+export default {
   inherit: { display: 'inherit' },
   initial: { display: 'initial' },
   unset: { display: 'unset' },

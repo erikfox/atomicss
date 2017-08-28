@@ -5,7 +5,7 @@
 */
 
 import deepEqual from 'deep-equal';
-import { height } from './height';
+import height from './height';
 import { getEnumeratedValues } from './utils';
 
 const possibleValues = [

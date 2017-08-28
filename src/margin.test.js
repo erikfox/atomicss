@@ -5,7 +5,7 @@
 */
 
 import deepEqual from 'deep-equal';
-import { margin } from './margin';
+import margin from './margin';
 import { getScaledEmValues } from './utils';
 
 const allSidesValues = getScaledEmValues('margin', ['auto']);

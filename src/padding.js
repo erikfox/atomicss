@@ -2,7 +2,7 @@
   https://developer.mozilla.org/en-US/docs/Web/CSS/padding
 */
 
-module.exports.padding = {
+export default {
   inherit: { padding: 'inherit' },
   initial: { padding: 'initial' },
   unset: { padding: 'unset' },
